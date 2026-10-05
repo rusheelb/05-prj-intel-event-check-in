@@ -15,7 +15,7 @@ const maxCount = 50;
 let teamCounts = {
   water: 0,
   zero: 0,
-  power: 0
+  power: 0,
 };
 let attendees = [];
 
@@ -125,7 +125,7 @@ form.addEventListener("submit", function (event) {
 
   attendees.push({
     name: name,
-    teamName: teamName
+    teamName: teamName,
   });
   renderAttendeeList();
   saveAttendance();
